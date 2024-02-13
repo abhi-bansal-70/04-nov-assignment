@@ -1,0 +1,99 @@
+Introduction to JavaScript and its 
+fundamentals
+
+Assignment Questions
+
+Question 1: Explain what JavaScript is and its role in web development.
+
+Answer 1: JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, …
+
+
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+
+Answer 2 : HTML defines the content and structure of a web page, while JavaScript allows for manipulation of the content and the behavior of the page. HTML (Hypertext Markup Language) is a markup language used for creating static web pages. JavaScript is a programming language used for creating interactive and dynamic web pages.
+JavaScript makes web pages dynamic. Before JavaScript, web pages were built only with HTML and CSS. HTML and CSS are only capable of creating static pages that can be styled but not interactive aside from hyperlinks. Some of the most popular websites are built with JavaScript, including Google, YouTube, and Facebook.
+
+
+Question 3: List and describe the five primitive data types in JavaScript.
+
+Answer 3: 
+These data types are classified into primitive (basic) and non-primitive (or reference) data types. The primitive data types usually refer to a single value. JavaScript has five basic data types.  They are:
+String :
+A string represents a series of characters within double or single quotes.
+Example: let str = “Hello World”
+Number:
+The number data type represents numerical value.  It refers to both integer and floating point numbers.
+Example: let num=1000
+Boolean:
+Boolean is a logical data type which can take only two values. i.e. True or False
+Example: let bool = True
+Undefined:
+When a variable is not assigned any value, then it is of Undefined Type.  The undefined data type represents undefined or unknown value.  It is the default value of undefined variables.
+Example: let year;
+Here, age is an undefined data type.
+Null:
+The Null data type represents null value (no value).  It represents ‘empty’ or ‘nothing’.
+Example: let x =null;
+ Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the 'let' keyword?
+Answer 4: Just like var in Javascript, let keyword is also used for variable declaration. But the only difference is the variable declared with the “let” keyword is block-scoped and local variable. A variable declared with let will be out of scope outside the block within which it has been declared.
+Let us see the syntax for this,
+let name1 [= val1] [, name2 [= val2]] [, ..., namen [= valn];
+Parameters:
+The names of those variables which are to be declared like name1, name2, namen etc, each of them must be a legal Javascript identifier. Even for those declared variables, you can also specify their values initially though it’s optional.
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and multi-line comments.
+Answer 5: We can use // or /*…*/ to change the JavaScript code execution using comments. JavaScript Comments are used to prevent code execution and are considered suitable for testing the code.
+Example 1: JavaScript comments are used to prevent execution of selected code to locate problems of code or while testing new features. This example illustrates that commented code will never execute. 
+
+
+function add() {
+    let x = 10;
+    let y = 20;
+    let z = x + y;
+    // console.log(x + y);
+    console.log(z);
+}
+ 
+add();
+
+Example 2: This example uses multi-line comments to prevent the execution of addition code and perform subtraction operations.
+
+
+function sub() {
+    let x = 10;
+    let y = 20;
+    /* let z = x + y;
+    console.log(z); */
+ 
+    let z = x - y;
+    console.log(z);
+}
+ 
+sub();
+
+
+
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript. Provide an example where using a clear identifier improves code readability.
+
+
+Answer 6:
+
+
+The importance of variable naming in programming cannot be overstated. Choosing meaningful and descriptive names for variables is essential for several reasons:
+Readability and Understandability: Clear and meaningful variable names make your code more readable and understandable. When someone, including yourself, reads the code later on, descriptive variable names make it easier to comprehend the purpose and intent of the variable. It reduces confusion and helps in quickly grasping the logic and flow of the program.
+Maintainability and Debugging: Well-named variables facilitate code maintenance and debugging. If you or someone else needs to modify or fix a piece of code, having meaningful variable names makes it easier to identify which variables are involved and their purpose. This speeds up the debugging process and reduces the chances of introducing errors when making changes.
+Collaboration and Teamwork: When working in a team environment, using clear and consistent variable naming conventions becomes even more critical. It promotes effective collaboration by enabling team members to understand each other's code easily. It also reduces communication barriers and makes code reviews and discussions more efficient.
+Self-Documentation: Meaningful variable names act as self-documentation within your code. Instead of relying solely on comments to explain the purpose of a variable, a well-chosen name can convey important details about the data it represents or the role it plays in the program. This makes the code more self-explanatory and reduces the need for excessive comments.
+Code Reusability: Good variable naming practices contribute to code reusability. When you name variables based on their purpose rather than their specific values, it becomes easier to reuse the code in different contexts. By avoiding hard-coded or context-specific names, you can create more flexible and adaptable code.
+To choose appropriate variable names, consider the following guidelines:
+Use descriptive names that convey the purpose, meaning, or role of the variable.
+Follow a consistent naming convention throughout your codebase.
+Choose names that are concise but still descriptive.
+Use camel case (e.g., myVariableName) or underscore-separated (e.g., my_variable_name) naming conventions based on the programming language or style guide you are following.
+Remember, while there may be some personal preferences or language-specific conventions, the goal is to prioritize clarity and maintainability when selecting variable names.
+
+
+
+
+
+
+
